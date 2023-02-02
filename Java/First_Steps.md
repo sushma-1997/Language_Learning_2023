@@ -11,6 +11,7 @@ date: 1997-02-01
 </head>
 <body>
     <h1>First Steps</h1>
+	<p>I have begun following Tim Buchalka's JAVA course on <strong>Udemy</strong>. I have JDK version 17 installed (programming tool setup). I've learned about <a href="[https://docs.oracle.com/javase/specs/jls/se17/html/jls-3.html#jls-3.9](https://docs.oracle.com/en/java/javase/17/jshell/introduction-jshell.html#GUID-630F27C8-1195-4989-9F6B-2C51D46F52C8)">JShell</a> and how to use the command line or terminal for running Java programs.Executed my first statement (“Hello World”) in java using JShell. Below is the summary of basic concepts in java</p>
     <ul>
 			<li>
 				<p>JDK Version 17</p>
