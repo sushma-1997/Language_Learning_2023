@@ -31,5 +31,21 @@ public class PrimitiveDataTypes {
     // Boolean data type
     boolean myBoolean = true;
     System.out.println("Boolean: " + myBoolean);
+    
+    //primitive data types value ranges
+    int myIntValue = Integer.MIN_VALUE, myIntMaxValue = Integer.MAX_VALUE; 
+    byte myByteValue = Byte.MIN_VALUE, myByteMaxValue = Byte.MAX_VALUE; 
+    short myShortValue = Short.MIN_VALUE, myShortMaxValue = Short.MAX_VALUE; 
+    long myLongValue = Long.MIN_VALUE, myLongMaxValue = Long.MAX_VALUE; 
+    
+    System.out.println("Integer minimum value: " + myIntValue);
+    System.out.println("Integer maximum value: " + myIntMaxValue);
+    System.out.println("Byte minimum value: " + myByteValue);
+    System.out.println("Byte maximum value: " + myByteMaxValue);
+    System.out.println("Short minimum value: " + myShortValue);
+    System.out.println("Short maximum value: " + myShortMaxValue);
+    System.out.println("Long minimum value: " + myLongValue);
+    System.out.println("Long maximum value: " + myLongMaxValue);
   }
 }
+
