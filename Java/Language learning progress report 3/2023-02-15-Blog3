@@ -1,1 +1,48 @@
 
+This week, I delved into the world of Java's primitive data types, exploring the remaining four types: Float, Double, Char, and Boolean. While I had some familiarity with these types, I learned valuable new insights into their individual use cases and nuances. In this post, I'll be sharing some of what I learned, including the key differences between float and double, the various ways to declare char variables, and the unique benefits of working with boolean data. Join me as we take a closer look at these fundamental building blocks of Java programming!
+
+## [Float](https://github.com/sushma-1997/Language_Learning_2023/blob/main/Java/Language%20learning%20progress%20report%203/FloatAndDoubleRanges.java) and [Double](https://github.com/sushma-1997/Language_Learning_2023/blob/main/Java/Language%20learning%20progress%20report%203/FloatAndDoubleRanges.java)
+
+In Java, floating-point numbers are used when more precision is needed in calculations. 
+There are two primitive types for expressing floating-point numbers:
+ the float and the double, with the double being the default type. Precision refers to the format and amount of space occupied by the relevant type. The double can work with a much bigger range of numbers and is more precise than the float, but it requires twice the memory. The letter "L" is used in a whole number literal to specify a long value. The double data type is Java's default type for real numbers, but it can be specified with a suffix of "d" or "D," and the float data type can be specified with a suffix of "f" or "F." It is generally recommended to use a double over a float, unless the additional precision is not needed. When using a float variable, be sure to include the "f" suffix when assigning a decimal number.
+
+[Challenge](https://github.com/sushma-1997/Language_Learning_2023/blob/main/Java/Language%20learning%20progress%20report%203/Challenge.java): In modern programming, it's not common to use floats as much as it was before. The double data type is preferred for floating point calculations due to its higher precision. However, to indicate a float value, most programmers use the letter 'F' as a suffix at the end of the number. It's a clear and concise way to specify that the value is a float without any ambiguity. This method is widely used instead of explicit casting, which adds unnecessary code. It's important to note that by default, Java interprets decimal literals as double values, which are more precise and larger than floats.
+
+## Char and Boolean
+
+In Java, the char and boolean data types are two of the remaining four primitive data types.
+The char data type is used to represent a single character, such as a letter, a number, or a symbol. It occupies 2 bytes of memory and can store characters from the Unicode character set. In Java, you can declare a char variable using a single quote ('').
+
+[Example](https://github.com/sushma-1997/Language_Learning_2023/blob/main/Java/Language%20learning%20progress%20report%203/charExample.java)
+
+
+The boolean data type is used to represent a value that can only be either true or false. It occupies 1 byte of memory and can be used in conditional statements or logical expressions. In Java, you can declare a boolean variable using the true or false keywords.
+
+[Example](https://github.com/sushma-1997/Language_Learning_2023/blob/main/Java/Language%20learning%20progress%20report%203/booleanExample.java)
+
+
+The main difference between char and boolean is that char is used to store characters and boolean is used to store a truth value. Additionally, char occupies 2 bytes of memory while boolean occupies 1 byte.
+In summary, char is used for storing single characters, and boolean is used for logical comparisons that can result in either true or false.
+
+
+## Strings:
+
+The String data type is used in Java to represent text, or a sequence of characters. It is a non-primitive data type and is a class in Java's standard library, so it comes with many built-in methods that allow you to manipulate strings.
+
+Here's an [example](https://github.com/sushma-1997/Language_Learning_2023/blob/main/Java/Language%20learning%20progress%20report%203/stringInitAndDeclaration.java) of a String variable declaration and initialization
+
+
+In this example, we declare a variable called greeting of type String and initialize it with the text "Hello, world!". Note that we use double quotes to denote a string literal in Java.
+
+Once you have a string, you can use various methods to manipulate it. Here are a few [examples](https://github.com/sushma-1997/Language_Learning_2023/blob/main/Java/Language%20learning%20progress%20report%203/StringExamples.java)
+
+In the above example, we create a String variable message and call several String methods on it. The length() method returns the length of the string, while the toUpperCase() and toLowerCase() methods return new strings with all the characters in uppercase and lowercase, respectively. The startsWith() and endsWith() methods return boolean values indicating whether the string starts or ends with a certain substring.
+
+Strings are immutable in Java, which means that once a string is created, you cannot change its value. However, you can create a new string by manipulating the original string using various string methods.
+
+
+
+
+
+
