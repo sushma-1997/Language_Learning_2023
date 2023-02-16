@@ -7,12 +7,12 @@ float myOtherFloatvalue = 5.25;
 //we need to do casting for this as we did in the previous blog
 
 float myOtherFloatvalue = (float)5.25;
-
 //we did casting here to overcome the error but it's not recommended to do so (Output: myOtherFloatvalue ==> 5.25)
 
 
 
 
+//CHALLENGE
 
 /*The objective of this challenge, is to convert a given number of pounds to kilograms.
 
