@@ -1,3 +1,7 @@
+
+
+
+
 String message = "Hello, world!";
 int length = message.length(); // returns 13
 String upper = message.toUpperCase(); // returns "HELLO, WORLD!"
